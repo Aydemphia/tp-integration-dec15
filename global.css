@@ -1,0 +1,77 @@
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+body {
+	background: #222;
+	margin: 0px;
+	padding: 0px;
+	font-family: "Raleway", sans-serif;
+}
+#global {
+	width: 300px;
+	max-height: 300px;
+	padding: 0px;
+	margin: 0px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+#insideLeft {
+	width: 180px;
+	height: 270px;
+	max-height: 300px;
+	display: inline-block;
+	background: url(images/burger.jpg) no-repeat right;
+	padding: 20px 10px 10px 10px;
+}
+#insideRight {
+	width: 100px;
+	height: 260px;
+	float: right;
+	background: orange;
+	height: fill;
+	text-align: center;
+	padding: 0px;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	padding-top: 40px;
+}
+#infos div {
+	height: 100px;
+}
+.title {
+	color: #FFF;
+	font-size: 24px;
+	margin: 0px;
+	padding: 0px;
+}
+.icon {
+	width: 30px;
+	height: 30px;
+}
+.value {
+	font-size: 24px;
+}
+.miniText {
+	font-size: 10px;
+}
+#auteur, #auteur a {
+	font-size: 12px;
+	margin: 10px 0px 0px 0px;
+	padding: 0px;
+	color: #FFF;
+}
+#more {
+	position: absolute;
+	bottom: 0;
+	text-align: right;
+	font-style: italic;
+	color: #FFF;
+	font-size: 12px;
+	width: 180px;
+}
+#more a {
+	color: #FFF;
+	text-decoration: underline;
+}
